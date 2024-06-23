@@ -1,0 +1,224 @@
+/* Paleta de colores */
+:root {
+    --primary-color: #4d62d8;
+    --secondary-color: #f9f9f9;
+    --text-color: #d8d2d2c0;
+    --white: #ffffff;
+}
+
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--secondary-color);
+}
+
+header{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style:none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#titulo{
+    color: blue;
+    font-size: 2em;
+    margin: 0;
+}
+
+.bienvenida{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+footer {
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+
+.nav-link {
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover {
+    color: #ffffff; /* text-red-500 */
+    background-color: #1abfe9; /* bg-green-100 */
+}
+
+
+
+/* Estilos específicos por página */
+
+/* Página 'Contacto' */
+/* Página 'Nosotros' */
+/* Página 'Galería' */
+.galeria {
+    display: block;
+    text-align: center;
+}
+
+.galeria img {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.galeria-contenedor {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 20px 0; 
+}
+
+.galeria-item {
+    flex: 1 1 calc(33% - 40px); 
+    max-width: calc(33% - 40px);
+    margin: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Página 'Productos' */
+.productos {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productos-tabla{
+    width: 100%;
+    margin-top: 20px;
+}
+.productos-tabla caption {
+    caption-side: top; 
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;   
+}
+
+.productos-tabla th,
+.productos-tabla td {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    text-align: left;
+}
+
+.productos-tabla th {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.productos-tabla tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+/* Página 'Index' */
+/* Página 'Servicios' */
+/* Página 'Ubicación' */
+
+/* Página 'Registro' */
+.registro form {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.registro label {
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.registro input, .registro select{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.registro button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Página 'Login' */
+.login form {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.login label {
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #45a049;
+}
