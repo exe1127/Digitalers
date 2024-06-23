@@ -20,8 +20,8 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header>
+  <body class="min-h-screen flex flex-col">
+    <header class="mt-6 flex justify-center rounded-lg shadow-lg p-6 mt-1">
       <nav>
         <ul>
           <li><a class="nav-link" href="index.html">Inicio</a></li>
@@ -35,9 +35,9 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="bg-white rounded-lg shadow-lg p-6 mt-10">
-        <h2 class="text-3xl font-handwritten mb-4">Sobre Nosotros</h2>
+    <main class="flex-grow flex flex-col justify-center">
+      <section  class="bg-white rounded-lg shadow-lg p-6 mt-10 w-full max-w-full">
+        <h2 class="text-4xl font-handwritten mb-4">Sobre Nosotros</h2>
         <p class="mb-4">
           Bienvenido a <strong>Taller Mecánico NFS</strong>, tu aliado de
           confianza para el mantenimiento y reparación de vehículos. Con más de
@@ -52,19 +52,18 @@
           certificados, que utilizan la última tecnología y herramientas para
           diagnosticar y reparar cualquier problema mecánico.
         </p>
-        <p class="mb-4">
-          Nuestro taller ofrece una amplia gama de servicios, incluyendo:
-        </p>
       </section>
 
-      <section class="bg-white rounded-lg shadow-lg p-6 mt-10">
-        <h2  class="text-3xl font-handwritten mb-4">Conoce Más Sobre Nosotros</h2>
-        <!-- <div class="video">
-          <h3>Video de Presentación</h3>
-        </div> -->
+      <section  class="bg-white rounded-lg shadow-lg p-6 mt-10 w-full max-w-full">
+        <h2 class="text-3xl font-handwritten mb-4">
+          Conoce Más Sobre Nosotros
+        </h2>
+        <div class="video">
+          
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="bg-gray-800 text-white p-4 flex justify-center">
       <p>Derechos Reservados Taller Mecanico NFS © 2024</p>
     </footer>
   </body>
