@@ -52,6 +52,26 @@ footer {
 }
 
 
+.message {
+    background-color: #ffa33b;
+    border: 1px solid #fdce35;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.message h1 {
+    margin: 0 0 10px;
+    font-size: 54px;
+}
+
+.message p {
+    margin: 0;
+    font-size: 28px;
+}
+
 
 /* Estilos específicos por página */
 

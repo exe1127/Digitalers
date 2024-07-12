@@ -47,12 +47,11 @@ class CustomHeader extends HTMLElement {
             
                 <ul class="flex space-x-4">
                     <li><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li><a class="nav-link" href="servicios.html">Servicios</a></li>
                     <li><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                    <li><a class="nav-link" href="galeria.html">Galería</a></li>
-                    <li><a class="nav-link" href="ubicacion.html">Ubicación</a></li>
+                    <li><a class="nav-link" href="noticias.html">Noticias</a></li>
                     <li><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    <li><a class="nav-link" href="registro.html">Registro</a></li>
-                    <li><a class="nav-link" href="login.html">Login</a></li>
+                    <li><a class="nav-link" href="turno.html">Turno</a></li>
                 </ul>
             </nav>
         </header>
