@@ -7,6 +7,7 @@ class CustomHeader extends HTMLElement {
         // Create elements in the shadow DOM
         const template = document.createElement('template');
         template.innerHTML = `
+
             <style>
                 header{
                         background-color: var(--primary-color);
@@ -34,17 +35,14 @@ class CustomHeader extends HTMLElement {
 
                 img {
                         display: flex;
-                        justify-content: flex-start; /* Alinear elementos al inicio (a la izquierda) */
-                        
-                }
+                        justify-content: flex-start; 
+                }        
+                
             </style>
            
         <header class="flex items-center justify-between rounded-lg shadow-lg p-6 mt-1">  
-
                 <a class="nav-link" href="index.html"><img src="img/NFS.png"  alt="Logo de la Empresa" class="logo" id="logo"> </a>
-                
             <nav>
-            
                 <ul class="flex space-x-4">
                     <li><a class="nav-link" href="index.html">Inicio</a></li>
                     <li><a class="nav-link" href="servicios.html">Servicios</a></li>
@@ -56,8 +54,6 @@ class CustomHeader extends HTMLElement {
             </nav>
         </header>
 
-    
-           
         `;
 
         // Append the template content to the shadow root
