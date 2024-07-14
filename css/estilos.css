@@ -30,8 +30,6 @@ main {
     text-align: center;
 }
 
-
-
 footer {
     padding: 10px 0;
     position: relative;
@@ -42,15 +40,14 @@ footer {
     font-family: "Playwrite US Trad", cursive;
 }
 
-
 .nav-link {
     transition: all 0.3s ease-in-out;
 }
-.nav-link:hover {
-    color: #ffffff; /* text-red-500 */
-    background-color: #1abfe9; /* bg-green-100 */
-}
 
+.nav-link:hover {
+    color: #ffffff; 
+    background-color: #1abfe9; 
+}
 
 .message {
     background-color: #ffa33b;
@@ -72,12 +69,14 @@ footer {
     font-size: 28px;
 }
 
+.carousel-item img {
+    width: 750px; /* Ajusta el ancho de la imagen al 50% */
+    height: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/* Estilos específicos por página */
-
-/* Página 'Contacto' */
-/* Página 'Nosotros' */
-/* Página 'Galería' */
 .galeria {
     display: block;
     text-align: center;
@@ -109,43 +108,17 @@ footer {
     overflow: hidden;
 }
 
-/* Página 'Productos' */
-.productos {
-    margin: 20px;
-    padding: 20px;
-    background-color: var(--white);
+.description {
+    margin: 10px; 
+    box-shadow: 0 0 10px rgba(128, 122, 122, 0.384);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-.productos-tabla{
-    width: 100%;
-    margin-top: 20px;
+.custom-section {
+    width: 30%; 
+    margin: 0 auto; 
 }
-.productos-tabla caption {
-    caption-side: top; 
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    font-weight: bold;   
-}
-
-.productos-tabla th,
-.productos-tabla td {
-    border: 1px solid #ccc; 
-    padding: 10px;
-    text-align: left;
-}
-
-.productos-tabla th {
-    background-color: var(--primary-color);
-    color: var(--white);
-}
-
-.productos-tabla tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-
 
 
 
